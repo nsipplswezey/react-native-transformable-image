@@ -13,19 +13,19 @@ export default class TransformableImage extends Component {
     DEV = true;
   }
 
-  static propTypes = {
-    pixels: PropTypes.shape({
-      width: PropTypes.number,
-      height: PropTypes.number,
-    }),
+//   static propTypes = {
+//     pixels: PropTypes.shape({
+//       width: PropTypes.number,
+//       height: PropTypes.number,
+//     }),
 
-    enableTransform: PropTypes.bool,
-    enableScale: PropTypes.bool,
-    enableTranslate: PropTypes.bool,
-    onSingleTapConfirmed: PropTypes.func,
-    onTransformGestureReleased: PropTypes.func,
-    onViewTransformed: PropTypes.func
-  };
+//     enableTransform: PropTypes.bool,
+//     enableScale: PropTypes.bool,
+//     enableTranslate: PropTypes.bool,
+//     onSingleTapConfirmed: PropTypes.func,
+//     onTransformGestureReleased: PropTypes.func,
+//     onViewTransformed: PropTypes.func
+//   };
 
   static defaultProps = {
     enableTransform: true,
